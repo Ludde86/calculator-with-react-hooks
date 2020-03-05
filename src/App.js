@@ -50,6 +50,7 @@ const App = () => {
 					/
 				</button>
 				<button
+					className="calc-btn"
 					onClick={(e) => {
 						try {
 							setData(
