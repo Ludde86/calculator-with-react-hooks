@@ -40,7 +40,7 @@ const App = () => {
 				<button onClick={(e) => setData(data + e.target.value)} value="+">
 					+
 				</button>
-				<button onClick={(e) => setData(data - e.target.value)} value="-">
+				<button onClick={(e) => setData(data + e.target.value)} value="-">
 					-
 				</button>
 				<button onClick={(e) => setData(data + e.target.value)} value="*">
