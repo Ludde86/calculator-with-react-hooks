@@ -36,6 +36,9 @@ button {
 	background-color: #444;
 	color: #efefef;
 }
+.calc-btn {
+	color: #ccc;
+}
 
 /* All things Grid, Flexbox, Box Alignment */
 .wrapper,
