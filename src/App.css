@@ -3,7 +3,6 @@
 html,
 body {
 	margin: 0;
-	margin-top: 40px;
 	padding: 0;
 	font-family: sans-serif;
 	background: linear-gradient(100deg, rgb(200, 200, 100) 1%, rgb(10, 10, 10));
@@ -12,7 +11,9 @@ body {
 .wrapper {
 	max-width: 320px;
 	min-height: 76vh;
-	margin: 0 auto;
+	margin: auto;
+	margin-top: 10vh;
+	margin-bottom: 13vh;
 	border: 2px solid black;
 	border-radius: 5px;
 	background: #ccc;
@@ -48,6 +49,8 @@ button {
 }
 .show-input {
 	grid-area: total;
+	min-height: 50px;
+	overflow: auto;
 }
 .modifiers {
 	grid-area: modif;
